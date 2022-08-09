@@ -6,7 +6,7 @@ LinkedList, Stack, Queue, Dequeue 구현.
 1. LinkedList(java.util.LinkedList)
     public LinkedList();
 
-	public void add(int n);
+    public void add(int n);
     public int get(int idx);
     public void remove(int idx);
 
@@ -26,7 +26,7 @@ LinkedList, Stack, Queue, Dequeue 구현.
 3. Queue(java.util.Queue)
     public Queue();
 
-	public void add(int n);
+    public void add(int n);
     public int peek();
     public int poll();
 
