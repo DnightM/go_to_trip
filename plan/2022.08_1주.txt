@@ -1,0 +1,49 @@
+2022년 8월 1주차(2022.08.07 ~ 2022.08.12)
+LinkedList, Stack, Queue, Dequeue 구현.
+함수는 자바 기본 Util Class 참조.
+
+
+1. LinkedList(java.util.LinkedList)
+    public LinkedList();
+
+	public void add(int n);
+    public int get(int idx);
+    public void remove(int idx);
+
+    public int size();
+    public void clear();
+
+2. Stack(java.util.Stack)
+    public Stack();
+
+    public void push(int n);
+    public int peek();
+    public int pop();
+
+    public int size();
+    public void clear();
+
+3. Queue(java.util.Queue)
+    public Queue();
+
+	public void add(int n);
+    public int peek();
+    public int poll();
+
+    public int size();
+    public void clear();
+
+4. Dequeue(java.util.Deque)
+    public Dequeue();
+
+    public void addFirst(int n);
+    public void addLast(int n);
+
+    public void removeFirst();
+    public void removeLast();
+
+    public int getFirst();
+    public int getLast();
+
+    public int size();
+    public void clear();
