@@ -36,16 +36,16 @@ LinkedList, Stack, Queue, Dequeue 구현.
 4. Dequeue(java.util.Deque)
     public Dequeue();
 
-    public void peekFirst(int n);
-    public void peekLast(int n);
-    public void pollFirst(int n);
-    public void pollLast(int n);
+    public int addFirst(int n);
+    public int addLast(int n);
+
+    public int peekFirst();
+    public int peekLast();
+    public int pollFirst();
+    public int pollLast();
 
     public void removeFirst();
     public void removeLast();
-
-    public int getFirst();
-    public int getLast();
 
     public int size();
     public void clear();
