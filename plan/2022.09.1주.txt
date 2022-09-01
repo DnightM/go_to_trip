@@ -1,0 +1,19 @@
+2022년 9월 1주차(2022.09.01 ~ 2022.09.09)
+PriorityQueue, AvlTree 구현.
+
+1. PriorityQueue(java.util.PriorityQueue)
+    public PriorityQueue();
+
+    public void add(int n);
+    public int peek();
+    public int poll();
+
+    public int size();
+    public void clear();
+
+2. AvlTree
+    public AvlTree();
+
+    public void insert(int n);
+    public void delete(int n);
+    public boolean search(int n);
